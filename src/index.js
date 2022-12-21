@@ -1,10 +1,6 @@
 /**
  * DOM SELECTORS
  */
-var sound1 = require("../assets/simon-says-sound-1.mp3");
-var sound2 = require("../assets/simon-says-sound-2.mp3");
-var sound3 = require("../assets/simon-says-sound-3.mp3");
-var sound4 = require("../assets/simon-says-sound-4.mp3");
 
 const startButton = document.querySelector(".js-start-button");
 
