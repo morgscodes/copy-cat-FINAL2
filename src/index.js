@@ -45,29 +45,28 @@ const pads = [
   {
     color: "red",
     selector: document.querySelector(".js-pad-red"),
-    sound: new Audio(sound1),
+    sound: new Audio("https://github.com/morgscodes/copy-cat-FINAL2/blob/main/assets/simon-says-sound-1.mp3?raw=true"),
   },
 
   {
     color: "green",
     selector: document.querySelector(".js-pad-green"),
-    sound: new Audio(sound2),
+    sound: new Audio("https://github.com/morgscodes/copy-cat-FINAL2/blob/main/assets/simon-says-sound-2.mp3?raw=true"),
   },
 
   {
     color: "blue",
     selector: document.querySelector(".js-pad-blue"),
-    sound: new Audio(sound3),
+    sound: new Audio("https://github.com/morgscodes/copy-cat-FINAL2/blob/main/assets/simon-says-sound-3.mp3?raw=true"),
   },
 
   {
     color: "yellow",
     selector: document.querySelector(".js-pad-yellow"),
-    sound: new Audio(sound4),
-  },
-
-  // TODO: Add the objects for the green, blue, and yellow pads. Use object for the red pad above as an example.
+    sound: new Audio("https://github.com/morgscodes/copy-cat-FINAL2/blob/main/assets/simon-says-sound-4.mp3?raw=true"),
+  }
 ];
+
 
 /**
  * EVENT LISTENERS
